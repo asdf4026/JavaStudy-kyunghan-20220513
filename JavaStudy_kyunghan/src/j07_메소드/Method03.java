@@ -29,5 +29,6 @@ public class Method03 {
 		test1(10, 20);
 		test1(3.14);
 		test1(3, 33.14);
+		
 	}
 }
