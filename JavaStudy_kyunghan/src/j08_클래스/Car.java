@@ -1,5 +1,7 @@
 package j08_클래스;
-
+/*
+ * 생성자 = 주소값을 무조건 반환
+ */
 public class Car {
 	String company;
 	String model; 
