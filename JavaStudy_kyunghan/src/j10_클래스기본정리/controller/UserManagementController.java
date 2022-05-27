@@ -15,7 +15,7 @@ public class UserManagementController {
 	public void createUser() {
 		int indexResult = findEmptyInUsers();
 		if(indexResult != -1) {
-			users[0] = userService.insertUser();
+			users[indexResult] = userService.insertUser();
 			
 			System.out.println("[새로 추가된 사용자]");
 			System.out.println(users[indexResult].toString());

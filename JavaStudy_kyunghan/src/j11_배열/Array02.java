@@ -23,7 +23,7 @@ public class Array02 {
 				size++;
 			}
 		}
-		int [] numbers = new int[size];
+		int [] numbers = new int[size]; //number= 배열변수선언, size변수의 크기에 해당하는 배열 생성
 		
 		for(int i = 0, j = 0; i < 100; i++) {
 			if(i !=0 && i % 8 ==0) {
