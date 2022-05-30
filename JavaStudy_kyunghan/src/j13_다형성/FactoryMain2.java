@@ -4,6 +4,7 @@ public class FactoryMain2 {
 
 	public static void main(String[] args) {
 		Factory[] factorys = new Factory[100];
+		
 //		factorys[0] = new SmartPhoneFactory();
 //		factorys[1] = new ComputerFactory();
 		
@@ -15,7 +16,8 @@ public class FactoryMain2 {
 			factory.start();
 		}
 		
-		
+		//다운캐스팅 은 업캐스팅이 된 녀석만 가능
+		//업캐스팅 항상 상속되어 있어야함
 		int i = 10;
 		double d = i;
 		int ii = (int)d;
